@@ -3,7 +3,13 @@ import React, { useState } from "react";
 const Input = ({
   label="",
   type="text",
-  props
+  placeholder="",
+  value="",
+  name="input",
+  change=() => {},
+  readonly=false,
+  style = {},
+  required=false,
 }) => {
 
   const styles = {
