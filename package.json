@@ -1,0 +1,26 @@
+{
+  "name": "@roniwilliams12/simplified-ui",
+  "version": "1.0.0",
+  "main": "dist/simplifiedUI.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Roni1256/SimplifiedUI.git"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "library",
+    "simplified",
+    "simplified-ui"
+  ],
+  "author": "Roniwilliams",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack --mode development --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "license": "MIT"
+  },
+  "license": "MIT"
+}
